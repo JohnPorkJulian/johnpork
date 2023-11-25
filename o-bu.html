@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <!-- HEDER SEECTION START -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="o-bu.html" class="active">O-Bu</a>
+        <a href="hakkimda.html">Hakkımda</a>
+        <a href="dikkat.html">Dikkat</a>
+        <a href="contact.html">Contact</a>
+        <a href="hayvanlar.html">Hayvanlar</a>
+      </nav>
+
+      <div class="buttons">
+        <!--birinci buton-->
+        <button id="search-btn">
+          <i class="fa fa-search"></i>
+        </button>
+        <!--ikinci buton-->
+        <button id="cart-btn">
+          <i class="fa-solid fa-book"></i>
+        </button>
+        <!--üçüncü buton-->
+        <button id="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input type="text" class="search-input" 
+        id="search-box" placeholder="Search Here">
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+
+        <!--birinci kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-1.png" alt="menu">
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+
+        <!--ikinci kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-2.png" alt="menu">
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>        
+        
+        <!--ucuncu kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-3.png" alt="menu">
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+
+        <!--dorduncu kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-4.png" alt="menu">
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">Check Out Now</a>
+      </div>
+    </header>
+    <!--HEADER SECTION END-->
+
+
+    <!--MENU SECTOIN START-->
+    <section class="menu" id="menu">
+      <h1 class="heading">İLGİLENDİĞİM <span>Şeyler</span></h1>
+      <div class="box-container">
+        
+        <!--box 1-->
+        <div class="box">
+          <div class="box-head">
+            <img src="images/portswigger.jpg" alt="portswigger">
+            <span class="menu-category"></span>
+            <h3>Portswiger Nedir?</h3>
+            <div class="price">
+              <p>Portswiger , web güvenliği üzerine kurulmuş bir şirkettir.Burpsuit gibi popüler toollar'ın üreticisidir ve güncel  bloglar , zafiyetler makalelere buradan ulaşabilirsiniz. Dilerseniz lablarını çözüp kendinizi geliştirebilirsiniz.</p></div>
+          </div>
+          <div class="box-bottom">
+            <a href="https://portswigger.net/" class="btn" target="_blank">Portswigger ile ilgiliyseniz</a>
+          </div>
+        </div>
+        <!--box2-->
+        <div class="box">
+          <div class="box-head">
+            <img src="images/oray-bey.jpg" alt="oray-bey">
+            <span class="menu-category"></span>
+            <h3>Oray Bey kimdir?</h3>
+            <div class="price"><p>Oray bey , Eşber beyin restoranında çalışan bir elemandır, bir gün Oray bey yıllardır biriktirdiği parayla patronu Eşber beyin söz verdiği gibi restoran açmak ister fakat Eşber beyin oyununa geldiğinden haberi  yoktur...</p></div>
+          </div>
+          <div class="box-bottom">
+            <a href="https://youtu.be/1R1BZtMPYTw" class="btn" target="_blank">Oray bey piskolojisi</a>
+          </div>
+        </div>
+        <!--box3-->
+        <div class="box">
+          <div class="box-head">
+            <img src="images/Bukowski.jpg" alt="bukowski">
+            <span class="menu-category"></span>
+            <h3>Bukowski Kimdir?</h3>
+            <div class="price"><p>Hayatını yazarlığa adayıp bundan bir şey kazanamadıktan sonra hayatta çok zorluk çekmiştir. Çok ileri yaşlarında aç kalmak uğruna tekrar yazarlığa başlamasıyla başarıyı yakalamıştır. Buna rağmen mezarına yazdırdığı yazı , istek arzu ve başarı kavramlarını sorgulatıyor.</p></div>
+          </div>
+          <div class="box-bottom">
+            <a href="https://www.antoloji.com/bazilari-delirmez-siiri/" class="btn" target="_blank">Bazıları delirmez</a>
+          </div>
+        </div>
+        <!--box4-->
+        <div class="box">
+          <div class="box-head">
+            <img src="images/intigriti.jpg" alt="intigriti">
+            <span class="menu-category"></span>
+            <h3>Intigriti Nedir?</h3>
+            <div class="price"><p>Intigriti aynı Hackerone , Bugcrowed gibi bir Bug Bounty websitesidir. Şirketler ya da adminler websitelerinde bir zafiyet var mı diye bu sitelere ilan verirler. Bu alanda kendini geliştiren insanlar da websitesini belirtilen kuarallar dahilinde tararlar.</p></div>
+          </div>
+          <div class="box-bottom">
+            <a href="https://www.intigriti.com/" class="btn" target="_blank">Intigriti Hakkında</a>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+    <!--MENU SECTION END-->
+
+
+ 
+
+
+
+    <!--FOOTER SECTION START-->
+    <section class="footer">
+      <div class="search">
+        <input type="text" 
+        class="search-input"
+        placeholder="search">
+        <button class="btn btn-primary">Search</button>
+      </div>
+      <div class="share">
+        <a href="https://www.instagram.com/yigitdrbk/" class="fab fa-instagram" target="_blank"></a>
+        <a href="https://open.spotify.com/user/xhqy8o4ii4ow2y2588eda1nb7?si=tgfEningTfydqqg43v2Elw&utm=&nd=1" class="fab fa-spotify" target="_blank"></a>
+        <a href="https://www.youtube.com/@BenMrMakinesiyim" class="fab fa-youtube" target="_blank"></a>
+        <a href="https://pin.it/30H6kLQ" class="fab fa-pinterest" target="_blank"></a>
+        <a href="https://github.com/BAROWZSKI" class="fab fa-github" target="_blank"></a>
+      </div>
+
+      <div class="links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html">Contact</a>
+        <a href="blogs.html">Blogs</a>  
+      </div>
+
+      <div class="credit">
+        created by <span>Yigit Bukowski</span> | All Rights Reserved
+      </div>
+  </section>
+  <!--FOOTER SECTION END-->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

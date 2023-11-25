@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Yigit Pasha</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+ 
+  <body>
+    <!-- HEADER SEECTION START -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html" class="active" target="_blank">Home</a>
+        <a href="o-bu.html" target="_blank">O-Bu</a>        
+        <a href="hakkimda.html" target="_blank">Hakkımda</a>
+        <a href="dikkat.html"  target="_blank">Dikkat</a>
+        <a href="contact.html"  target="_blank">Contact</a>
+        <a href="hayvanlar.html"  target="_blank">Hayvanlar</a>
+      </nav>
+
+      <div class="buttons">
+        <!--birinci buton-->
+        <button id="search-btn">
+          <i class="fa fa-search"></i>
+        </button>
+        <!--ikinci buton-->
+        <button id="cart-btn">
+          <i class="fa-solid fa-book"></i>
+        </button>
+        <!--üçüncü buton-->
+        <button id="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input type="text" class="search-input" 
+        id="search-box" placeholder="Search Here">
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="cart-items-container">
+
+        <!--birinci kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <iframe width="200" height="100" src="https://www.youtube.com/embed/Gtzc-V9DjEQ" title="No Clear Mind - Lulu (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="content">
+            <h3>Lulu</h3>
+            <div class="price"></div>
+          </div>
+        </div>
+
+        <!--ikinci kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <iframe width="200" height="100" src="https://www.youtube.com/embed/O7G6pj2xy_Q" title="Mac Demarco - Chamber of Reflection (with Shigeo Sekito&#39;s ザ・ワードⅡ / セキトウ・シゲオ sample intro)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          <div class="content">
+            <h3>The word 2</h3>
+            <div class="price"></div>
+          </div>
+        </div>        
+
+
+        <a href="#" class="btn">üstüne basarak dinleyebilirsiniz</a>
+      </div>
+    </header>
+    <!--HEADER SECTION END-->
+
+    <!--HOME SECTION START-->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Yiğit Bukowski'nin sitesindesiniz</h3>
+      <p>Sadece tecrübe etmek , front-end'de de kendimi geliştirmek ve sitelerin genel dinamiklerini anlamak için bu şekil bi site yaptım. Daha henüz çömez fakat ileride geliştirirrim. Aşağıada hayatın anlammı var, LET'S TAKE A LOOK !</p>
+      <p><strong>Yuıdaki barda kitaba basarak şarkı dinleyebilirsiniz.</strong></p>
+      <a href="https://www.youtube.com/watch?v=240OETUFQI8&list=LL&index=87" class="btn" target="_blank">bok</a>
+       <a href="https://www.youtube.com/watch?v=Q8eHX-4L41A&list=LL&index=192" class="btn" target="_blank">kaka</a>
+      </div>   
+    </section>
+    <!--HOME SECTION END-->
+
+    <!--MENU SECTOIN START-->
+    <section class="menu" id="menu">
+      <h1 class="heading">İLGİLENDİĞİM <span>Şeyler</span></h1>
+      <div class="box-container">
+        
+        <!--box 1-->
+        <div class="box">
+          <div class="box-head">
+            <img src="images/portswigger.jpg" alt="portswigger">
+            <span class="menu-category"></span>
+            <h3>Portswiger Nedir?</h3>
+            <div class="price">
+              <p>Portswiger , web güvenliği üzerine kurulmuş bir şirkettir.Burpsuit gibi popüler toollar'ın üreticisidir ve güncel  bloglar , zafiyetler makalelere buradan ulaşabilirsiniz. Dilerseniz lablarını çözüp kendinizi geliştirebilirsiniz.</p></div>
+          </div>
+          <div class="box-bottom">
+            <a href="https://portswigger.net/" class="btn" target="_blank">Portswigger ile ilgiliyseniz</a>
+          </div>
+        </div>
+        <!--box2-->
+        <div class="box">
+          <div class="box-head">
+            <img src="images/oray-bey.jpg" alt="oray-bey">
+            <span class="menu-category"></span>
+            <h3>Oray Bey kimdir?</h3>
+            <div class="price"><p>Oray bey , Eşber beyin restoranında çalışan bir elemandır, bir gün Oray bey yıllardır biriktirdiği parayla patronu Eşber beyin söz verdiği gibi restoran açmak ister fakat Eşber beyin oyununa geldiğinden haberi  yoktur...</p></div>
+          </div>
+          <div class="box-bottom">
+            <a href="https://youtu.be/1R1BZtMPYTw" class="btn" target="_blank">Oray bey piskolojisi</a>
+          </div>
+        </div>
+        <!--box3-->
+        <div class="box">
+          <div class="box-head">
+            <img src="images/Bukowski.jpg" alt="bukowski">
+            <span class="menu-category"></span>
+            <h3>Bukowski Kimdir?</h3>
+            <div class="price"><p>Hayatını yazarlığa adayıp bundan bir şey kazanamadıktan sonra hayatta çok zorluk çekmiştir. Çok ileri yaşlarında aç kalmak uğruna tekrar yazarlığa başlamasıyla başarıyı yakalamıştır. Buna rağmen mezarına yazdırdığı yazı , istek arzu ve başarı kavramlarını sorgulatıyor.</p></div>
+          </div>
+          <div class="box-bottom">
+            <a href="https://www.antoloji.com/bazilari-delirmez-siiri/" class="btn" target="_blank">Bazıları delirmez</a>
+          </div>
+        </div>
+        <!--box4-->
+        <div class="box">
+          <div class="box-head">
+            <img src="images/intigriti.jpg" alt="intigriti">
+            <span class="menu-category"></span>
+            <h3>Intigriti Nedir?</h3>
+            <div class="price"><p>Intigriti aynı Hackerone , Bugcrowed gibi bir Bug Bounty websitesidir. Şirketler ya da adminler websitelerinde bir zafiyet var mı diye bu sitelere ilan verirler. Bu alanda kendini geliştiren insanlar da websitesini belirtilen kuarallar dahilinde tararlar.</p></div>
+          </div>
+          <div class="box-bottom">
+            <a href="https://www.intigriti.com/" class="btn" target="_blank">Intigriti Hakkında</a>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+    <!--MENU SECTION END-->
+
+
+
+    <!--ABOUT ME SECTION START-->
+    <section class="about" id="about">
+      <h1 class="heading">About <span>Me</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/about.jpg" alt="about">
+        </div>
+        <div class="content">
+          <h3>Bok üniversitesi kaka lisesine gidiyorum</h3>
+          <p>Gittiğim üniversite ya da lise bok püsür saçma sapan bilgileri vermeyeceğim. Çünkü who cares shit , I'm sick of all yall's shit ! ya know men we are all dumb animals and our all things are gonna be puff </p>
+          <p> Web siteleri ile ilgili çalışıyorum ; front-end developerlık , back-end developerlık , web pentesting , NOC mühendisliği , bug-bounty , ve programlama üzerine çalışoyorum. Ama çalışıyorum sadece ilerde Tengri de izin verirse bug hunter olacam... </p>
+          <p>Bu  siteyi veritabanına bağlamadım sadece öyle internette benim de izim olsun diye yaptığım ve tamamen benim yaptığım bi website.Search kısımları ve contact kısmı çalışmııyo zaten ilerde onlara da bi bakarım. HAAA Eğer de olur bir baba yiğit websitemi hackler deler o kişi bana haber versin bak ben yaptım diye.</p>
+          <p>Bu siteden bana ulaşmaya çalışmayın direkt insta'dan yazın iş o bu için de spamcreature@proton.me ye mail atın</p>
+          <a href="https://www.beyazgulaygaz.com/urun/2-kg-genis-cemberli-kucuk-tup" class="btn" target="_blank">Müthiş Kariyerimle Alakalı</a>
+        </div>
+      </div>
+    </section>
+    <!--ABOUT ME SECTION END-->    
+
+
+
+    
+
+
+    <!--Dikkat SECTION START-->
+    <section class="review" id="review">
+      <h1 class="heading">BAK ,<span> Dikkat et he !!!</span></h1>  
+      <div class="box-container">
+      
+        <!--birinci kutu-->
+        <div class="box">
+          <img src="images/quote.png" alt="queto">
+          <p>Web sitelerine şak diye girmek baya tehlikelidir , öyle ki websitenin admini websitesine zararlı bir javascript kodu koyduysa senin browser'ında kayıtlı cüzdanların , cookilerine ulaşabilir ve bu bilgileri sana karşı kullanabilir. Beef gibi toollar ile bilgisayarınız adeta av gibi kullanılabilir hatta botnet' e bile karışabilir.</p>
+          <img src="images/avatar-1.png" alt="avatar" class="user">
+          <h3>Tırnak Makası Operatörü</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+      <!--ikinci kutu-->  
+        <div class="box">
+          <img src="images/quote.png" alt="queto">
+          <p>Çalıştığınız firmadan ya da diğer hafta için aldığınız uçak bileti şirketinden size bir mail geliyorsa bu size karşı bir phishing saldırısı olabilir. Herhangi bir yerden indirip çalışmasına izin verdiğiniz her türlü yazılım aslında içinde payload gömülü bir yazlım olabilir.Dosyalarınızı websitelerinde virus taraması yapabilir apk'ları ise sanal bir ortamda test edebilirsiniz.</p>
+          <img src="images/avatar-2.png" alt="avatar" class="user">
+          <h3>Yer Fıstığı Mühendisi</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>  
+
+      <!--ucuncu kutu-->
+      <div class="box">
+          <img src="images/quote.png" alt="queto">
+          <p>Url de gördüğünüz kilit sembolu sitenin https formatında olduğunu yani SSL sertifikasının olduğu anlamına gelir. Bunun anlamı sizin ve sunucunuzun arasındaki bilgilerin şifrelenerek iletilmesi anlamına gelir. Bu gayet güvenilirdir , hiç endişelenmeyin hatta instagram bio'nuza şifrenizi de yazın unutmazsınız</p>
+          <img src="images/avatar-3.png" alt="avatar" class="user">
+          <h3>Şişman Beden Hocası</h3>
+          <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          </div>
+      </div>
+    </section> 
+    <!--Dikkat SECTION END-->
+
+    <!--CONTACT SECTION STAR-->
+    <section class="contact" id="contact">
+      <h1 class="heading">Contact <span>Us</span></h1>  
+      <div class="row">
+        <iframe
+        class="map" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.647792778489!2d28.840265776413286!3d41.032960917904134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa5272f2633ad%3A0xdf0ba306efe2266!2zS2lyYXpsxLEgTWV0cm8gRHVyYcSfxLE!5e0!3m2!1str!2str!4v1687519750295!5m2!1str!2str"  
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+          <h3>İletişime geçmek için</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Buraya isim girin...">
+          </div>
+
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="mail" placeholder="Buraya mail girin...">
+          </div>
+
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="Buraya telefon numarası girin...">
+          </div>
+          <input type="submit" class="btn" value="Contact Now">
+        </form>
+      </div>
+    </section>
+    <!--CONTACT SECTION END-->
+
+    <!--Hayvanlar SECTION START-->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Hayvanlar <span>Alemi</span></h1>  
+      <div class="box-container">
+        
+        <!--birinci blog-->
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-1.jpg" alt="blog">
+          </div>
+          <div class="content">
+            <a href="https://youtu.be/l5sP6s-u7XE" class="title" target="_blank">Floppa Adam Mıdır?</a>
+            <span>yigit drbk ekledi/ 27.06.2023</span>
+            <p>Gerek agresif tavırlarıyla , boş çemkirmeleri ve tıslamalarıyla herkesi kendinden nefret ettirdin. Bunlar bi de çok büyüktür hiç başa çıkılmaz. Adam madam değilsin...</p>
+            <a href="https://youtu.be/l5sP6s-u7XE" class="btn" target="_blank">Floppa hakkında</a>
+          </div>
+        </div>
+        <!--ikinci blog-->
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-2.jpg" alt="blog">
+          </div>
+          <div class="content">
+            <a href="https://youtu.be/bi7f4vLYgzc" class="title" target="_blank">Samoyed Adam Mıdır?</a>
+            <span>yigit drbk ekledi/ 27.06.2023</span>
+            <p>Şu bakış şu tatlılık. Sürekli sırıtarak gezer ve çok tatlıdır. Bi zararı yoktur elini ağzına sok yine ısırmaz. Şu tüylere bak sarılmış gibi oldum.Adam gibi adam fakat sıcak ve küçük evde beslemeyin...</p>
+            <a href="https://youtu.be/bi7f4vLYgzc" class="btn">Samoyed hakkında</a>
+          </div>
+        </div>
+        <!--üçüncü blog-->  
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-3.jpg" alt="blog">
+          </div>
+          <div class="content">
+            <a href="https://youtu.be/XWuPGKLJXe8" class="title" target="_blank">Nemo Adam Mıdır?</a>
+            <span>yigit drbk ekledi/ 27.06.2023</span>
+            <p>Meşhur Kayıp Balık Nemo filmi ile ünlü olan Nemo halk tarafından yanlış anlaşıldı. Hayvanın özgürlüğünü aldılar adeta fanusa hapis ettiler. Hakkını helal et adam gibi adamsın...</p>
+            <a href="https://youtu.be/XWuPGKLJXe8" class="btn">Nemo hakkında</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!--Hayvanlar SECTION END-->
+
+    <!--FOOTER SECTION START-->
+    <section class="footer">
+        <div class="search">
+          <input type="text" 
+          class="search-input"
+          placeholder="search">
+          <button class="btn btn-primary">Search</button>
+        </div>
+        <div class="share">
+          <a href="https://www.instagram.com/yigitdrbk/" class="fab fa-instagram" target="_blank"></a>
+          <a href="https://open.spotify.com/user/xhqy8o4ii4ow2y2588eda1nb7?si=tgfEningTfydqqg43v2Elw&utm=&nd=1" class="fab fa-spotify" target="_blank"></a>
+          <a href="https://www.youtube.com/@BenMrMakinesiyim" class="fab fa-youtube" target="_blank"></a>
+          <a href="https://pin.it/30H6kLQ" class="fab fa-pinterest" target="_blank"></a>
+          <a href="https://github.com/BAROWZSKI" class="fab fa-github" target="_blank"></a>
+        </div>
+
+        <div class="links">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="menu.html">Menu</a>
+          <a href="review.html">Review</a>
+          <a href="contact.html">Contact</a>
+          <a href="blogs.html">Blogs</a>  
+        </div>
+
+        <div class="credit">
+          created by <span>Yigit Bukowski</span> | All Rights Reserved
+        </div>
+    </section>
+    <!--FOOTER SECTION END-->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Blogs</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <!-- HEDER SEECTION START -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="o-bu.html">O-Bu</a>
+        <a href="hakkimda.html">Hakkımda</a>
+        <a href="dikkat.html">Dikkat</a>
+        <a href="contact.html">Contact</a>
+        <a href="hayvanlar.html" class="active">Hayvanlar</a>
+      </nav>
+
+      <div class="buttons">
+        <!--birinci buton-->
+        <button id="search-btn">
+          <i class="fa fa-search"></i>
+        </button>
+        <!--ikinci buton-->
+        <button id="cart-btn">
+          <i class="fa-solid fa-book"></i>
+        </button>
+        <!--üçüncü buton-->
+        <button id="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input type="text" class="search-input" 
+        id="search-box" placeholder="Search Here">
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+
+        <!--birinci kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-1.png" alt="menu">
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+
+        <!--ikinci kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-2.png" alt="menu">
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>        
+        
+        <!--ucuncu kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-3.png" alt="menu">
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+
+        <!--dorduncu kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-4.png" alt="menu">
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">Check Out Now</a>
+      </div>
+    </header>
+    <!--HEADER SECTION END-->
+
+
+    <!--Hayvanlar SECTION START-->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Hayvanlar <span>Alemi</span></h1>  
+      <div class="box-container">
+        
+        <!--birinci blog-->
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-1.jpg" alt="blog">
+          </div>
+          <div class="content">
+            <a href="https://youtu.be/l5sP6s-u7XE" class="title" target="_blank">Floppa Adam Mıdır?</a>
+            <span>yigit drbk ekledi/ 27.06.2023</span>
+            <p>Gerek agresif tavırlarıyla , boş çemkirmeleri ve tıslamalarıyla herkesi kendinden nefret ettirdin. Bunlar bi de çok büyüktür hiç başa çıkılmaz. Adam madam değilsin...</p>
+            <a href="https://youtu.be/l5sP6s-u7XE" class="btn" target="_blank">Floppa hakkında</a>
+          </div>
+        </div>
+        <!--ikinci blog-->
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-2.jpg" alt="blog">
+          </div>
+          <div class="content">
+            <a href="https://youtu.be/bi7f4vLYgzc" class="title" target="_blank">Samoyed Adam Mıdır?</a>
+            <span>yigit drbk ekledi/ 27.06.2023</span>
+            <p>Şu bakış şu tatlılık. Sürekli sırıtarak gezer ve çok tatlıdır. Bi zararı yoktur elini ağzına sok yine ısırmaz. Şu tüylere bak sarılmış gibi oldum.Adam gibi adam fakat sıcak ve küçük evde beslemeyin...</p>
+            <a href="https://youtu.be/bi7f4vLYgzc" class="btn">Samoyed hakkında</a>
+          </div>
+        </div>
+        <!--üçüncü blog-->  
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-3.jpg" alt="blog">
+          </div>
+          <div class="content">
+            <a href="https://youtu.be/XWuPGKLJXe8" class="title" target="_blank">Nemo Adam Mıdır?</a>
+            <span>yigit drbk ekledi/ 27.06.2023</span>
+            <p>Meşhur Kayıp Balık Nemo filmi ile ünlü olan Nemo halk tarafından yanlış anlaşıldı. Hayvanın özgürlüğünü aldılar adeta fanusa hapis ettiler. Hakkını helal et adam gibi adamsın...</p>
+            <a href="https://youtu.be/XWuPGKLJXe8" class="btn">Nemo hakkında</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!--Hayvanlar SECTION END-->
+
+
+    <!--FOOTER SECTION START-->
+    <section class="footer">
+      <div class="search">
+        <input type="text" 
+        class="search-input"
+        placeholder="search">
+        <button class="btn btn-primary">Search</button>
+      </div>
+      <div class="share">
+        <a href="https://www.instagram.com/yigitdrbk/" class="fab fa-instagram" target="_blank"></a>
+        <a href="https://open.spotify.com/user/xhqy8o4ii4ow2y2588eda1nb7?si=tgfEningTfydqqg43v2Elw&utm=&nd=1" class="fab fa-spotify" target="_blank"></a>
+        <a href="https://www.youtube.com/@BenMrMakinesiyim" class="fab fa-youtube" target="_blank"></a>
+        <a href="https://pin.it/30H6kLQ" class="fab fa-pinterest" target="_blank"></a>
+        <a href="https://github.com/BAROWZSKI" class="fab fa-github" target="_blank"></a>
+      </div>
+
+      <div class="links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html">Contact</a>
+        <a href="blogs.html">Blogs</a>  
+      </div>
+
+      <div class="credit">
+        created by <span>Yigit Bukowski</span> | All Rights Reserved
+      </div>
+  </section>
+  <!--FOOTER SECTION END-->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

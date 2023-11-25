@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Review</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <!-- HEDER SEECTION START -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="o-bu.html">O-Bu</a>
+        <a href="hakkimda.html">Hakkımda</a>
+        <a href="dikkat.html" class="active">Dikkat</a>
+        <a href="contact.html">Contact</a>
+        <a href="hayvanlar.html">Hayvanlar</a>
+      </nav>
+
+      <div class="buttons">
+        <!--birinci buton-->
+        <button id="search-btn">
+          <i class="fa fa-search"></i>
+        </button>
+        <!--ikinci buton-->
+        <button id="cart-btn">
+          <i class="fa-solid fa-book"></i>
+        </button>
+        <!--üçüncü buton-->
+        <button id="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input type="text" class="search-input" 
+        id="search-box" placeholder="Search Here">
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+
+        <!--birinci kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-1.png" alt="menu">
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+
+        <!--ikinci kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-2.png" alt="menu">
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>        
+        
+        <!--ucuncu kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-3.png" alt="menu">
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+
+        <!--dorduncu kart-->
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-4.png" alt="menu">
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">Check Out Now</a>
+      </div>
+    </header>
+    <!--HEADER SECTION END-->
+
+
+
+    <!--Dikkat SECTION START-->
+    <section class="review" id="review">
+      <h1 class="heading">BAK ,<span> Dikkat et he !!!</span></h1>  
+      <div class="box-container">
+      
+        <!--birinci kutu-->
+        <div class="box">
+          <img src="images/quote.png" alt="queto">
+          <p>Web sitelerine şak diye girmek baya tehlikelidir , öyle ki websitenin admini websitesine zararlı bir javascript kodu koyduysa senin browser'ında kayıtlı cüzdanların , cookilerine ulaşabilir ve bu bilgileri sana karşı kullanabilir. Beef gibi toollar ile bilgisayarınız adeta av gibi kullanılabilir hatta botnet' e bile karışabilir.</p>
+          <img src="images/avatar-1.png" alt="avatar" class="user">
+          <h3>Tırnak Makası Operatörü</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+      <!--ikinci kutu-->  
+        <div class="box">
+          <img src="images/quote.png" alt="queto">
+          <p>Çalıştığınız firmadan ya da diğer hafta için aldığınız uçak bileti şirketinden size bir mail geliyorsa bu size karşı bir phishing saldırısı olabilir. Herhangi bir yerden indirip çalışmasına izin verdiğiniz her türlü yazılım aslında içinde payload gömülü bir yazlım olabilir.Dosyalarınızı websitelerinde virus taraması yapabilir apk'ları ise sanal bir ortamda test edebilirsiniz.</p>
+          <img src="images/avatar-2.png" alt="avatar" class="user">
+          <h3>Yer Fıstığı Mühendisi</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>  
+
+      <!--ucuncu kutu-->
+      <div class="box">
+          <img src="images/quote.png" alt="queto">
+          <p>Url de gördüğünüz kilit sembolu sitenin https formatında olduğunu yani SSL sertifikasının olduğu anlamına gelir. Bunun anlamı sizin ve sunucunuzun arasındaki bilgilerin şifrelenerek iletilmesi anlamına gelir. Bu gayet güvenilirdir , hiç endişelenmeyin hatta instagram bio'nuza şifrenizi de yazın unutmazsınız</p>
+          <img src="images/avatar-3.png" alt="avatar" class="user">
+          <h3>Şişman Beden Hocası</h3>
+          <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          </div>
+      </div>
+    </section> 
+    <!--Dikkat SECTION END-->
+  
+
+
+    <!--FOOTER SECTION START-->
+    <section class="footer">
+      <div class="search">
+        <input type="text" 
+        class="search-input"
+        placeholder="search">
+        <button class="btn btn-primary">Search</button>
+      </div>
+      <div class="share">
+        <a href="https://www.instagram.com/yigitdrbk/" class="fab fa-instagram" target="_blank"></a>
+        <a href="https://open.spotify.com/user/xhqy8o4ii4ow2y2588eda1nb7?si=tgfEningTfydqqg43v2Elw&utm=&nd=1" class="fab fa-spotify" target="_blank"></a>
+        <a href="https://www.youtube.com/@BenMrMakinesiyim" class="fab fa-youtube" target="_blank"></a>
+        <a href="https://pin.it/30H6kLQ" class="fab fa-pinterest" target="_blank"></a>
+        <a href="https://github.com/BAROWZSKI" class="fab fa-github" target="_blank"></a>
+      </div>
+
+      <div class="links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html">Contact</a>
+        <a href="blogs.html">Blogs</a>  
+      </div>
+
+      <div class="credit">
+        created by <span>Yigit Bukowski</span> | All Rights Reserved
+      </div>
+  </section>
+  <!--FOOTER SECTION END-->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
